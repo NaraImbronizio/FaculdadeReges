@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Web</title>
+</head>
+<body>
+     <!--Imagem-->
+     
+        <img src="image/Proserve.png" alt="Logo tipo da empresa ProServe, onde um conjunto de quadro peças de um quebra cabeça nas cores: vermelha, azul, amarela e verde que se juntam e formam um círculo" 
+        width="200" height="200">
+
+     
+    <!--Titulo-->
+    <p><h1>Pró-Serve</h1></p>
+
+     <!--Paragráfo-->
+    <p><b>SOMOS UMA EMPRESA</b></p>
+        <p>Especializada em transformação digital. Ajudamos você a repensar o seu negócio, aplicando a tecnologia como ferramenta impulsionadora de processos e resultados.
+        Atuamos com uma equipe multidisciplinar, qualificada e em constante atualização quanto às tecnologias e novidades do mercado.
+        Seja na gestão de projetos com squads personalizadas, ou no modelo de parceria no gerenciamento de processos terceirizados, a Pró-Serve sempre atuará como parceira da sua organização.</p>
+
+        
+    <p><b>NOSSO LEMA</b> 
+        <p>Proatividade em servir!</p>
+
+       
+    <p><b>NOSSO TIME</b></p>
+        <p>Contamos com uma equipe multidisciplinar que resultam em um time completo e especialista: Desenvolvedor, PG (Project Guardian), PO (Product Owner), 
+            Arquiteto de Softwares, UI/UX Design e QA (Quality Assurance).</p>
+
+
+
+    <p><b>CONHEÇA NOSSA EQUIPE:</b></p>
+        <ol>
+        <li><b>Scrum Master:</b> </li> 
+        O Henrique garantirá que a equipe siga os princípios e práticas do Scrum. 
+        O Scrum Master ajuda a equipe a remover obstáculos e aprimorar seu desempenho.
+        <li><b>Product Owner:</b></li> 
+        A Nara é a representante dos stakeholders e responsável por manter o Product Backlog atualizado, priorizado e alinhado com as necessidades do negócio. 
+        O Product Owner é quem toma as decisões sobre o que é desenvolvido.</li> 
+        <li><b>Desenvolvedor:</b></li> 
+        A Iuri faz parte da equipe que desenvolve o aplicativo, composta por desenvolvedores, designers e outros especialistas necessários. 
+        Eles são auto-organizados e têm a responsabilidade de entregar incrementos de valor a cada Sprint.</li> 
+        </p>
+    </ol>
+
+   
+    
+</body>
+</html>
