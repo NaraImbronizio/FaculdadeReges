@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CadastroVeiculo</title>
+</head>
+<body>
+
+    <form action="" method="post" enctype="multipart/form-data"></form>
+
+    <fieldset>
+        <legend>Cadastro Veículo</legend>
+        <label>Tipo do Veículo:</label>
+        <label>
+            <input type="radio" name="carro" value="Novo"/>Novo
+        </label>
+        <label>
+            <input type="radio" name="carro" value="Usado"/>Usado
+        </label>
+        <label>Categoria:</label>
+        <label>
+            <select>
+                <option value="Hatch">Hatch</option>
+                <option value="SUV">SUV</option>
+                <option value="Sedã">Sedã</option>
+                <option value="Picape">Picape</option>
+                <option value="Utilitário">Utilitário</option>
+                <option value="Perua">Perua</option>
+                <option value="Minivan">Minivan</option>
+                <option value="Conversível">Conversível</option>
+                <option value="Outros">Outros</option>
+            </select>
+            <label>Fabricante:</label>
+            <label>
+                <select>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="Volskwagen">Volskwagen</option>
+                    <option value="Citroën">Citroën</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Kia">Kia</option>
+                    <option value="Outros">Outros</option>
+                </select><br/></br>
+            <label>Modelo:</label>
+            <input type="text" name="modelo" id="modelo"/>
+            <label>Quilometragem:</label>
+            <input type="text" name="quilometragem" id="quilometragem"/></br></br>
+            <label>Preço:</label>
+            <input type="text" name="preco" id="preco"/>
+            <label>Placa:</label>
+            <input type="text" name="placa" id="placa"/></br></br>
+            <label>Câmbio:</label>
+            <label>
+                <input type="radio" name="cambio" value="Manual"/>Manual
+            </label>
+            <label>
+                <input type="radio" name="cambio" value="Automático"/>Automático
+            </label>
+            <label>Blindagem:</label>
+            <label>
+                <input type="radio" name="blindagem" value="Sim"/>Sim
+            </label>
+            <label>
+                <input type="radio" name="blindagem" value="Não"/>Não
+            </label></br></br>
+            <label>Número de Portas:</label>
+            <input type="text" name="numberportas" id="numberportas"/>
+            <label>Combustível:</label>
+            <label>
+                <select>
+                    <option value="Etanol">Etanol</option>
+                    <option value="Gasolina">Gasolina</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="Flex">Flex</option>
+                    <option value="Eletrico">Elétrico</option>
+                    <option value="Hibrido">Híbrido</option>
+                    <option value="Outros">Outros</option>
+                </select><br/></br>
+  
+            <label>Descrição:</label></br>
+            <textarea cols="80" rows="10" name="descricao" id="descricao"
+             maxlength="400" placeholder="Digite  informações adicionais..."></textarea></br><br/>
+             <label>Arquivos</label>
+             <input type="file" name="arquivo" id="arquivo" accept=".jpg"/><br/><br/>
+            <input  type="submit" value="Enviar" class="botao"/>
+            <input  type="reset" value="Limpar" class="botao"/>
+    </fieldset>
+    
+</body>
+</html>
