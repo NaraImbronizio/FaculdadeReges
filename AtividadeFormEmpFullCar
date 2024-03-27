@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormulárioFullCar</title>
+</head>
+<body>
+    <!---Início do fomulário
+    metódo Post para troca de variáveis
+    enctype obrigatorio para envio de arquivos-->
+    <form action="" method="post" enctype="multipart/form-data">
+        <!--Gera uma borda no formulário-->
+        <fieldset>
+            <!---Legend faz um título no formulário-->
+            <legend>Dados Cadastrais: </legend>
+            <!--Label efetua  o rótulo do campo-->
+            <label>Nome:</label>
+            <!--input campo de texto para digitação-->
+            <input type="text" name="nome" id="nome"  placeholder="Ex: José de Andrade" required/>
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email"  placeholder="@" required/>
+            <label>Senha:</label>
+            <!--O atributo "password" esconde a senha digitada pelo usuário--->
+            <input type="password" name="password" id="password"  placeholder="Digite uma senha" required/><br/>
+            <label>Sexo: </label>
+            <label>
+                <input type="radio" name="sexo" value="masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="femino">Feminino
+            </label>
+        </fieldset>
+        <fieldset>
+             <!---Legend faz um título no formulário-->
+            <legend>Endereço:</legend>
+            <!--Label efetua  o rótulo do campo-->
+            <label>CEP</label>
+            <input type="text" name="cep" id="cep" maxlength="9"/>
+            <label>Logradouro:</label>
+            <input type="text" name="logradouro" id="logradouro" placeholder="Rua/Avenida..." required/>
+            <label>Número:</label>
+            <input type="text" name="numero" id="numero" size="5" /><br/>
+            <label>Complemento:</label>
+            <input type="text" name="complemento" id="complemento" size="30" placeholder="Bloco/Apto..."/>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Financeiros</legend>
+            <label>Tipo:</label>
+            <label>
+                <input type="radio" name="tipo" value="nacional">Nacional
+            </label>
+            <label>
+                <input type="radio" name="tipo" value="internacional">Internacional
+            </label>
+            <label>Bandeira:</label>
+            <select name="bandeira" id="bandeira">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="American Express">American Express</option>
+                <option value="Elo">Elo</option>            
+            </select>
+            <label>Número do Cartão:</label>
+            <input type="text" name="numerocartao"  id="numerocartao" size="16"/><br/>
+            <label>Validade:</label>
+            <input type="month" name="validade" id="validade"/>
+            <input  type="submit" value="Enviar" class="botao"/>
+            <input  type="reset" value="Limpar" class="botao"/>
+            </form>
+        </fieldset>
+</body>
+</html>
