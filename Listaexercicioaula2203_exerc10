@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+package Listaexercicioaula2203_exerc10;
+
+ import java.util.Scanner;
+/**
+ *
+ * @author narai
+ */
+public class Listaexercicioaula2203_exerc10 {
+    
+
+public class JavaApplicationEx10 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Informe a sua altura em metros:");
+        double altura = scanner.nextDouble();
+
+        System.out.println("Informe o seu peso em quilogramas:");
+        double peso = scanner.nextDouble();
+
+        double imc = peso / (altura * altura);
+
+        System.out.println("Seu IMC é de: " + imc);
+
+        scanner.close();
+    }
+}
+
+    
+}
