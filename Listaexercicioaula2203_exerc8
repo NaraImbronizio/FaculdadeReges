@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+package Listaexercicioaula2203_exerc8;
+/**
+ *
+ 
+ * @author narai
+ */
+
+import java.util.Scanner;
+
+public class Listaexercicioaula2203_exerc8 {
+    
+
+public class JavaApplicationEx8 {
+   
+    public static void main(String[] args) {
+        System.out.println("Contagem regressiva de 10 a 1:");
+
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+    }
+}
+
+}
