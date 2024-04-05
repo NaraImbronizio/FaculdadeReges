@@ -1,0 +1,42 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package listaexercicioaula2203_exerc05;
+
+import java.util.Scanner;
+/**
+ *
+ * @author narai
+ */
+public class Listaexercicioaula2203_exerc05 {
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Informe o primeiro numero: ");
+        int num1 = scanner.nextInt();
+
+        System.out.println("Informe o segundo numero: ");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Informe o terceiro numero: ");
+        int num3 = scanner.nextInt();
+
+        if (num1 > num2 && num1 > num3) {
+            System.out.println("O primeiro eh o maior numero!");
+        } else if (num2 > num1 && num2 > num3) {
+            System.out.println("O segundo eh o maior numero!");
+        } else if (num3 > num1 && num3 > num2) {
+            System.out.println("O terceiro eh o maior numero!");
+        } else {
+            System.out.println("Numeros iguais foram repetidos!");
+        }
+
+        scanner.close();
+    }
+}
