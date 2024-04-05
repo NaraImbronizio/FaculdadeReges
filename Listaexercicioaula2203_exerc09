@@ -1,0 +1,39 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Listaexercicioaula2203_exerc09;
+/**
+
+import java.util.Scanner;
+/**
+ *
+ * @author narai
+ */
+public class Listaexercicioaula2203_exerc09 {
+    
+
+public class JavaApplicationEx9 {
+   
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Informe o preço da gasolina por litro:");
+        double precoGasolina = scanner.nextDouble();
+
+        System.out.println("Informe o preço do etanol por litro:");
+        double precoEtanol = scanner.nextDouble();
+
+        double porcentagem = precoEtanol / precoGasolina * 100;
+
+        if (porcentagem < 70) {
+            System.out.println("É mais vantajoso abastecer com etanol.");
+        } else {
+            System.out.println("É mais vantajoso abastecer com gasolina.");
+        }
+
+        scanner.close();
+    }
+}
+
+}
