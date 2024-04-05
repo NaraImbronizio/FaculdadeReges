@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package listaexercicioaula2203_exerc06;
+
+import java.util.Scanner;
+/**
+ *
+ * @author narai
+ */
+public class Listaexercicioaula2203_exerc06 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+         // Cria um objeto Scanner para entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Digite um numero para saber sua tabuada: ");
+        int num = scanner.nextInt();
+
+        System.out.println("Tabuada do"+ num + ":");
+
+        for (int i = 0; i<=10; i++)
+        {
+            int resultado = num * i;
+            System.out.println(num +"x"+ i +"=" + resultado);
+        }
+
+        scanner.close();
+    }
