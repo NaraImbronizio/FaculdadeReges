@@ -1,0 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package listaexercicioaula2203_exerc04;
+
+import java.util.Scanner;
+/**
+ *
+ * @author narai
+ */
+public class Listaexercicioaula2203_exerc04 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+
+        int valor = 1;
+        int limite = 20;
+
+        while (valor <= limite) {
+            if (ehPar(valor)) {
+                System.out.println("Executando: " + valor);
+            }
+            valor++;
+        }
+
+        scanner.close();
+    }
+
+    public static boolean ehPar(int n) {
+        return (n % 2) == 0;
+    }
+}
